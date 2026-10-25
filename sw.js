@@ -1,5 +1,5 @@
 /* Offline cache for Four Rooms. Bump VERSION when you replace index.html. */
-var VERSION='four-rooms-v1';
+var VERSION='four-rooms-v2';
 var FILES=['./','./index.html','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png','./icons/apple-touch-icon.png'];
 self.addEventListener('install',function(e){
   e.waitUntil(caches.open(VERSION).then(function(c){return c.addAll(FILES);}).then(function(){return self.skipWaiting();}));
