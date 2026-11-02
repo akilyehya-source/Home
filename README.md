@@ -1,11 +1,14 @@
 # Four Rooms
 
-A phone app made of four 3D rooms.
+A phone app made of seven 3D rooms.
 
 1. **Library** - shelves of classic books. Tap a book.
 2. **Game Room** - a desk computer with a retro desktop and 6 games, plus an arcade cabinet with 5 games.
 3. **Lounge** - an interactive fireplace, a sofa you can sit on, a TV that plays your own videos, and a radio that plays your own music.
-4. **Room 4** - empty for now.
+4. **Observatory** - a telescope, orrery and globe.
+5. **Tokyo Apartment** - a rainy city apartment.
+6. **Forest Cabin** - a walkable forest with a two-story cabin, lake, boat, fishing, campfire, cooking, weather, seasons and a photo mode. Progress is saved on your phone.
+7. **Office** - a classical executive office and personal workspace: a desk with four real drawers (media, books, professional files, and a private drawer with an optional passcode), a laptop with its own small desktop, file manager and careful web browser, a notebook that supports Arabic and English, tasks and projects, a photo frame, an adjustable brass lamp, curtains, an opening window, a fireplace, a book shelf you can read from, and five times of day. Everything is stored only on your phone.
 
 It works offline once it has loaded one time. Scores, saves, imported videos and imported music are stored on your phone only.
 
@@ -30,4 +33,4 @@ Open it from the new icon. After that it also starts with no internet.
 - Imported videos and music live in the browser storage of the installed app. They stay after you close the app or restart the phone. If you clear the site data for the app, they are removed. Your original files are never touched.
 - Video playback uses your phone's own decoders. MP4 (H.264) and WebM play almost everywhere. MKV, AVI, WMV, MPEG, TS, 3GP, H.265 and AV1 depend on the phone. If a file will not play, convert it to MP4 (H.264 and AAC) with a free tool such as HandBrake or VLC.
 - iPhone only: if you do not open the app for several weeks, Safari can free up its storage. Re-import if that happens.
-- After you replace `index.html` with a newer version, also change `VERSION` in `sw.js` (for example to `four-rooms-v2`) so phones pick up the update.
+- After you replace `index.html` with a newer version, also change `VERSION` in `sw.js` (for example to `four-rooms-v8`) so phones pick up the update.
