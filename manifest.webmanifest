@@ -1,7 +1,7 @@
 {
   "name": "Four Rooms",
   "short_name": "Four Rooms",
-  "description": "Nine interactive 3D rooms, including a library, a gaming room, a forest cabin, an executive office, a sakura garden and an engineering design studio.",
+  "description": "Eleven interactive 3D rooms, including a multi-monitor command center, a library, a gaming room, a forest cabin, an executive office, a sakura garden and an engineering design studio and a Lebanese heritage village.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
